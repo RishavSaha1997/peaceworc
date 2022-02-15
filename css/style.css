@@ -22,7 +22,7 @@ body{
 }
 /*------------  NAVBAR  ------------*/
 .navbar{
-    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
 }
 
 /* .logo{
@@ -42,7 +42,7 @@ body{
 
 #navbarSupportedContent ul li a{
     color: black;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 400;
     transition: ease-in-out 0.5s;
 }
