@@ -41,8 +41,8 @@ body{
 }
 
 #navbarSupportedContent ul li a{
-    color:black;
-    font-size:16px;
+    color: black;
+    font-size: 15px;
     font-weight: 400;
     transition: ease-in-out 0.5s;
 }
@@ -177,7 +177,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 40px;
+    padding: 30px;
     border-bottom: 1px solid rgba(0,0,0,0.05);    
 }
 
@@ -207,7 +207,7 @@ body{
     background-color: #ffffff;
     border: 1px solid #ececec;
     margin: 20px;
-    transition: 1s;
+    transition: 0.7s all ease-in-out;
     box-shadow: 0px 0px 25px rgba(194, 191, 191, 0.5);
 }
 
@@ -247,7 +247,7 @@ body{
     transition: all ease 0.3s;
 }
 
-.blog-box:hover{
+.blog-container .blog-box:hover{
     transform: scale(1.05);
 }
 
@@ -266,8 +266,6 @@ body{
     color: #0f0f00;
     text-decoration: none;
 }
-
-
 /* .blog-text a:hover{
     color: #f33c3c;
     transition: all ease 0.3s;
