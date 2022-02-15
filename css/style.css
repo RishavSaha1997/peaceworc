@@ -137,7 +137,7 @@ body{
     margin-right: auto;
     width: 50%;
 }
-.service-box{
+.service-box-items{
     /* border-style: solid;
     border-color: gray; */
     /* box-shadow: 0px 3px rgb(196, 194, 194); */
@@ -145,7 +145,7 @@ body{
 
 }
 
-.service-box:hover{
+.service-box-items:hover{
     transform: scale(1.1);
 }
 
