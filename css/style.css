@@ -9,7 +9,6 @@ body{
     overflow-x:hidden;
 }
 .heading{
-    /* font-size: 50px; */
     text-align: center;
     color: rgb(106, 199, 137);
     letter-spacing: 3px;
@@ -24,12 +23,6 @@ body{
 .navbar{
     box-shadow: 0px 10px 30px rgba(0,0,0,0.15);
 }
-
-/* .logo{
-    font-weight: 700;
-    font-size: 28px;
-} */
-
 
 .logo img{
     width: 200px;
@@ -121,7 +114,6 @@ body{
 }
 #about h3{
     font-size: 50px;
-    /* font-style: oblique; */
 }
 .about-text{
     padding-top: 5px;
@@ -229,12 +221,6 @@ body{
     flex-direction: column;
 }
 
-
-/* .blog-text span{
-    color: #f33c3c;
-    font-size: 0.9rem;
-} */ 
-
 .blog-text .blog-title{
     font-size: 1.3rem;
     font-weight: 500;
@@ -266,12 +252,6 @@ body{
     color: #0f0f00;
     text-decoration: none;
 }
-/* .blog-text a:hover{
-    color: #f33c3c;
-    transition: all ease 0.3s;
-
-} */
-
 
 /*------------  Tetsimonials  ------------*/
 
@@ -411,20 +391,8 @@ body{
 
 /*------------  Get in Touch  ------------*/
 
-
-
 #message{
     resize: none;
 }
 
 
-
-/*** My Css **/
-
-/* .banner-section{
-    height: 95vh;
-}
-
-.banner-section img{
-    object-fit: contain;
-} */
