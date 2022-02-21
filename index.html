@@ -35,14 +35,13 @@
 <body>
 
     <!------------------------  NAVBAR  ------------------------>
-
+    
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light px-5 py-3">
             <a class="navbar-brand logo" href="#banner">
             <img src="Assets/logo-2.png" alt="logo">    
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -62,13 +61,11 @@
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#get-touch">Get in Touch</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <button id="download" class="btn btn-success px-4" type="button">Download App</button>
-                    </li> -->
                 </ul>
             </div>
         </div>
     </nav>
+
 
     <!------------------------  BANNER  ------------------------>
 
@@ -77,11 +74,11 @@
             <img src="assets/eldercare.png" alt="banner img">
         </div>
     </div> -->
-    <div class="col-md-12" id="banner">
+    <div class="col-md-12 col-sm-12" id="banner">
         <img class="ban-img" src="assets/eldercare.png" alt="">
-        <div class="col-md-12" id="banner-position">
+        <div class="col-md-12 col-sm-12" id="banner-position">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 col-sm-6">
                     <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="800">
                         <h1 class="ban-heading">Everything you need is now in your pocket</h1>
                         <p class="ban-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum libero, sit veniam sequi odio delectus? Accusamus perspiciatis, voluptate deserunt voluptatem quas quos ullam eum repellendus, iusto aspernatur quo atque debitis?</p>
@@ -89,13 +86,13 @@
                     <div id="button" data-aos="zoom-in-right" data-aos-easing="linear"
                         data-aos-duration="900"> 
                             <button id="android" class="btn btn-success px-3" style="border-radius:5px;" type="button">Android App</button>
-                            <button id="android" class="btn btn-primary px-3" style="border-radius:5px;" type="button">iOS App</button>
+                            <button id="ios" class="btn btn-primary px-3" style="border-radius:5px;" type="button">iOS App</button>
                     </div>
                     <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="800">
                         <p class="ban-paragraph text-light mt-2">Requires iOS 7.0 or higher</p>
                     </div>
                 </div>
-                <div class="col-md-6" data-aos="fade-left" data-aos-easing="linear"            data-aos-duration="800" id="second-img">
+                <div class="col-md-6 col-sm-12" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="800" id="second-img">
                      <img src="Assets/Sec-ban-removebg-preview.png" alt="">
                 </div>
             </div>
@@ -106,22 +103,25 @@
     <!------------------------  About Us  ------------------------>
 
     <div class="about-container" id="about">
-        <div class="col-md-10 mx-auto">
-            <h2 class="fs-4 fw-bold text-success" data-aos="fade-right" data-aos-easing="linear"
-            data-aos-duration="700">Welcome to Peace Care</h2>
-            <h3 class="mt-3 fw-bold" data-aos="fade-left" data-aos-easing="linear"
-            data-aos-duration="700" style="letter-spacing: 2px;">
-                <span style="color: rgb(51, 116, 83);">We Make A</span>
-                <span style="color: rgb(136, 211, 136);">Difference in Your Life</span>
-            </h3>
-            <div class="about-text" data-aos="fade-up" data-aos-easing="linear"
-            data-aos-duration="700">
-                <p class="text-secondary mt-4">Kindness and perseverance can imbibe the feeling of determination and support during the darkest times. A lone soul would always lookout for a sense of belonging and being cared for. Our professional nurturers and caregivers are sure to make life easier and more enjoyable for you and your family members.</p>
-                <p class="text-secondary">We are a trusted provider of quality and compassionate care. An epitome of responsible physical care and emotional support, our caregivers are sure to hold your hand during the trying times.</p>
-                <p class="text-secondary">Our caring professionals are true friendly aides, who would hear you out in distress, provide assistance and motivate you in every other way possible to lead a better life.</p>
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <h2 class="fs-3 fw-bold text-success" data-aos="fade-right" data-aos-easing="linear"
+                data-aos-duration="700">Welcome to Peace Care</h2>
+                <h3 class="mt-3 fw-bold" data-aos="fade-left" data-aos-easing="linear"
+                data-aos-duration="700" style="letter-spacing: 2px;">
+                    <span style="color: rgb(51, 116, 83);">We Make A</span>
+                    <span style="color: rgb(136, 211, 136);">Difference in Your Life</span>
+                </h3>
+                <div class="about-text" data-aos="fade-up" data-aos-easing="linear"
+                data-aos-duration="700">
+                    <p class="text-secondary mt-4">Kindness and perseverance can imbibe the feeling of determination and support during the darkest times. A lone soul would always lookout for a sense of belonging and being cared for. Our professional nurturers and caregivers are sure to make life easier and more enjoyable for you and your family members.</p>
+                    <p class="text-secondary">We are a trusted provider of quality and compassionate care. An epitome of responsible physical care and emotional support, our caregivers are sure to hold your hand during the trying times.</p>
+                    <p class="text-secondary">Our caring professionals are true friendly aides, who would hear you out in distress, provide assistance and motivate you in every other way possible to lead a better life.</p>
+                </div>
+                
             </div>
-            
         </div>
+       
     </div>
 
     <!------------------------  Our Services  ------------------------>
@@ -132,7 +132,7 @@
             <div class="service-box col-md-3 mt-4" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="800">
                 <div class="service-box-items">
                     <img src="assets/elderly.jpg" class="service-img">
-                    <p class="fs-4 fw-bold mt-3 text-center">Elder Care</p>
+                    <p class="fs-4 fw-bold mt-3 text-center">Elderly Care</p>
                     <p class="text-justify text-secondary">Elderly people are always fascinated by a trusted companion. Old age and illness are what make the life of the elderly quite challenging. The urge to be cared for and nurtured. Caring for the elderly, for those who are suffering from any sort of disease, and assisting them in their day-to-day activities is what our caregivers are good at.</p>
                 </div>
             </div>
@@ -160,9 +160,7 @@
                     <p class="text-justify  text-secondary">Recovering from a prolonged illness takes its due course of time. Good care at home after hospital leads to a quick and smooth path for a patient's recovery. A patient's caregiver's work might not only be restricted to just providing proper nourishment and nutrition, sometimes just reading out their favorite book to them or watching television together, work wonders for the sick.</p>
                 </div>
             </div>
-
         </div>
-
     </div>
 
     <!------------------------  Become A Caregiver  ------------------------>
@@ -182,7 +180,7 @@
                     <li>Measures and records vital signs.</li>
                 </ul>
             </div>
-            <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="900">
+            <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="950">
                 <button id="caregiver-button" class="btn btn-success px-4" type="button">Join</button>
             </div>
             
@@ -449,7 +447,7 @@
     <!-- AOS Script-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script src="css/bootstrap.js"></script>
+    <!-- <script src="css/bootstrap.js"></script> -->
 
     <!-- Slick Script -->
     <script src="plugins/slick/slick.min.js"></script>
@@ -495,6 +493,8 @@
             ]
         });
         AOS.init();
+
+        
     </script>
 
 
