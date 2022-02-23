@@ -22,11 +22,17 @@
     #ios{
         font-size: 12px;
     }
+    .about-text{
+        padding: 0px 15px 0px 15px;
+    }
     #about h3 {
         font-size: 23px;
     }
     .service-box-items{
         border-color: rgba(2, 6, 247, 0.295);
+    }
+    #text ul{
+        padding-right: 25px;
     }
   }
 
@@ -45,6 +51,7 @@
     .ban-heading{
         margin-left: 0px;
         margin-top: 50px;
+        font-size: 30px;
         text-align: center;
     }
     .ban-paragraph{
@@ -60,18 +67,31 @@
     #button{
         margin-left: 12px;
     }
-    #about{
+    .about-img img {
+        height: 50vh;
+        /* margin-top: 95px; */
+        margin-left: 0px;
+    }
+    #about_us{
         padding: 0px;
     }
-    #about h3{
+    #about_us h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+    #about_us h3{
         font-size: 30px;
+        text-align: center;
     }
     .about-text{
         margin: 10px;
-        padding: 5px;
+        padding: 0px 15px 0px 15px;
     }
     .service-box-items{
         border-color: rgba(2, 6, 247, 0.295);
+    }
+    #text ul{
+        padding-right: 25px;
     }
     
 }
@@ -100,18 +120,13 @@
     #button{
         margin-left: 28px;
     }
-    /* #second-img img {
-        margin-top: -430px;
-        height: 300px;
-        margin-left: 8rem;
-    } */
     #second-img img {
         display: none;
     }
-    .about-text{
+    /* .about-text{
         margin: 30px;
         padding: 5px;
-    }
+    } */
     #text{
         margin: 25px;
     }
@@ -124,21 +139,33 @@
     #caregiver-button{
         margin-left: 40px;
     }
-    #about{
-        margin-top: 40px;
-        padding: 5px;
+    .about-img img {
+        height: 50vh;
+        /* margin-top: 95px; */
+        margin-left: 0px;
+    }
+    #about_us{
+        padding: 0px;
+    }
+    #about_us h2 {
+        font-size: 22px;
         text-align: center;
     }
-    #about h3{
+    #about_us h3{
         font-size: 30px;
+        text-align: center;
     }
     .about-text{
-        padding: 0px;
-        text-align: justify;
+        margin: 10px;
+        padding: 0px 15px 0px 15px;
     }
     .service-box-items{
         border-color: rgba(2, 6, 247, 0.295);
     }
+    #text ul{
+        padding-right: 25px;
+    }
+    
 }
 
 /* Medium devices (tablets, 768px and up) */

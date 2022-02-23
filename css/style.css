@@ -41,15 +41,15 @@ body{
 }
 
 #navbarSupportedContent ul li a{
-    color:rgba(0, 47, 255, 0.822);
+    color:black;
     font-size:16px;
     font-weight: 400;
     transition: ease-in-out 0.5s;
 }
 
 #navbarSupportedContent ul li a:hover{
-   color:rgba(12, 182, 77, 0.842);
-   border-bottom:1px solid rgba(12, 182, 77, 0.842);
+   color:rgba(12, 57, 182, 0.842);
+   border-bottom:1px solid rgba(12, 38, 182, 0.842);
    transform: scale(1.1);
 }
 
