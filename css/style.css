@@ -5,7 +5,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: #ebe6e6;
+    /* background-color: #ebe6e6; */
     overflow-x:hidden;
 }
 .heading{
@@ -130,24 +130,31 @@ body{
 
 /*------------  Services  ------------*/
 #service p{
-    font-size: 13px;
+    font-size: 12px;
+    margin: 10px;
+    text-align: justify;
 }
 .service-img{
     display: block;
+    margin-top: 15px;
+    margin-bottom: 25px;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
 .service-box-items{
-    /* border-style: solid;
-    border-color: gray; */
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(180, 177, 177, 0.295);
+    border-radius: 1rem;
     /* box-shadow: 0px 3px rgb(196, 194, 194); */
     transition: 0.5s all ease-in-out;
 
 }
 
 .service-box-items:hover{
-    transform: scale(1.05);
+    border-color: rgb(4, 8, 248);
+    transform: scale(1.03);
 }
 
 /*------------  Caregiver  ------------*/

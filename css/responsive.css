@@ -25,6 +25,9 @@
     #about h3 {
         font-size: 23px;
     }
+    .service-box-items{
+        border-color: rgba(2, 6, 247, 0.295);
+    }
   }
 
 
@@ -66,6 +69,9 @@
     .about-text{
         margin: 10px;
         padding: 5px;
+    }
+    .service-box-items{
+        border-color: rgba(2, 6, 247, 0.295);
     }
     
 }
@@ -130,6 +136,9 @@
         padding: 0px;
         text-align: justify;
     }
+    .service-box-items{
+        border-color: rgba(2, 6, 247, 0.295);
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -185,6 +194,9 @@
     .about-text{
         padding: 0px 12px;
         text-align: center;
+    }
+    .service-box-items{
+        border-color: rgba(2, 6, 247, 0.295);
     }
 }
 
